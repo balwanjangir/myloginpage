@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <div class="left">
+                <h2>Login</h2>
+                <p>Don't have an account yet? <a href="register.html">Sign Up</a></p>
+                <form id="login-form">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="you@example.com" required>
+
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter 6 characters or more" required>
+
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> Remember me</label>
+                        <a href="forgot-password.html">Forgot Password?</a>
+                    </div>
+
+                    <button type="submit" class="login-btn">Login</button>
+
+                    <p>or login with</p>
+                    <div class="social-login">
+                        <button class="google-btn">Google</button>
+                        <button class="facebook-btn">Facebook</button>
+                    </div>
+                </form>
+            </div>
+            <div class="right">
+                <img src="login-illustration.png" alt="Login Illustration">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
